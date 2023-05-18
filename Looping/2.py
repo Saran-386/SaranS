@@ -1,9 +1,6 @@
 n=int(input("Enter number: "))
-for i in range(20,51):
-    if (i%2==0):
-        e=e+1
+for i in range(1,n):
+    if (n%i==0):
+        print(i,end=',')
     else:
-        o=o+1
-
-print("Even, ",e)
-print("Odd, ",o)
+        continue
