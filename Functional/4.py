@@ -11,6 +11,6 @@ if nterms <= 0:
 else:
    print("Fibonacci sequence:")
    for i in range(nterms):
-        s=s+i
+        s=i
 
 print(s)
