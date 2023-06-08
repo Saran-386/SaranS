@@ -1,7 +1,7 @@
 def series(n,x):
 	d=2
 	s=0
-	for i in range(0,n+1):
+	for i in range(0,n):
 		s = s + (x/d)
 		d=d*2
 	print(s)
