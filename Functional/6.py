@@ -4,9 +4,9 @@ def factorial(n):
 		return 1
 	
 	else:
-		1/(n * factorial(n - 1))
-		return ()
+		s=1/(n * factorial(n - 1))
+		return (s)
 
-num = int(input("N = "));
+num = int(input("N = "))
 print("number : ",num)
 print("Factorial : ",factorial(num))
