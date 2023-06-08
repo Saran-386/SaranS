@@ -9,8 +9,7 @@ s=0
 if nterms <= 0:
    print("Plese enter a positive integer")
 else:
-   print("Fibonacci sequence:")
    for i in range(nterms):
-        s=i
+        s=recur_fibo(i)
 
 print(s)
