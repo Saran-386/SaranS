@@ -12,4 +12,3 @@ for i in range(n,n2+1):
             break
     if (flag == 1):
         print(i, end = " ")
-    
