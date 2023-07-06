@@ -1,5 +1,5 @@
 def swap(a):
-    a=s.split(" ")
+    a=a.split(" ")
     t=str()
     t=a[0][0:2]
     a[0][0:2]=a[1][0:2]

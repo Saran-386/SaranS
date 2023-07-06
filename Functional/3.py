@@ -17,7 +17,7 @@ def cone(r,h,s):
     print("Volume is: ",vol)
 
 def rec(l,b,h):
-    sa=2((l*b)+(l*h)+(h*b))
+    sa=2*((l*b)+(l*h)+(h*b))
     vol=l*b*h
     print("Surface Area is: ",sa)
     print("Volume is: ",vol)

@@ -1,6 +1,7 @@
 mail = input("Enter your email id: ")
-user = mail.split("@")
-r = user[0]
+u = mail.split("@")
+user = u[0]
+r = u[0]
 p1 = r[::-1]
 p2 = p1.upper()
 password = r+p2

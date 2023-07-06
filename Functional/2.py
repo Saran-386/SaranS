@@ -9,8 +9,6 @@ def interest_calc(age,g,p,noy):
         i=p*(0.09)*noy
         print("Rate of interest is: ",i)
 
-
-
 name =input("Enter your name: ")
 age = int(input("Enter your age: "))
 g = input("Enter your Gender(M/F): ")
