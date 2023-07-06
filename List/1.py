@@ -4,7 +4,6 @@ for i in range(n):
 	h=int(input("Enter item: "))
 	list1.append(h)
 	
-
 e, o = 0, 0
 for num in list1:
 	if num % 2 == 0:
